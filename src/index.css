@@ -21,4 +21,24 @@ html,body {
   width: 300px;
   background-color: #fff; 
   border-radius: 30px;
+  padding: 30px;
+}
+
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top img {
+  height: 30px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 2px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
 }
